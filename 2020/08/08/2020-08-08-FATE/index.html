@@ -167,47 +167,47 @@
 
 <blockquote>
 <p>Bug :</p>
-<img   class="lazyload" data-original="/.com//1.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/1.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 </blockquote>
 <blockquote>
 <p>Solve:</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Shell">cd ~/.ssh<br><span class="hljs-meta">#</span><span class="bash"> check ssh key file</span><br>ls<br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//2.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/2.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">ssh-keygen -t rsa -C &quot;youremail@example.com&quot;<br></code></pre></td></tr></table></figure>
 
 <p>​    若遇到输入，直接按回车即可</p>
-<img   class="lazyload" data-original="/.com//3.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/3.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">ssh -v git@github.com<br></code></pre></td></tr></table></figure>
 
 <p>​    后两行如下</p>
-<img   class="lazyload" data-original="/.com//4.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/4.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">ssh-agent -s<br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//6.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/6.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">ssh-add ~/.ssh/id_rsa<br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//7.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/7.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>​    一般到这一步就可以，但出现了另一个Bug，执行</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs Shell">eval `ssh-agent -s`<br>ssh-add ~/.ssh/id_rsa<br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//8.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/8.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>​    SSH Key 生成完毕，将 id_rsa.pub 的内容复制到 github 账号即可。</p>
 <p>​    验证 SSH Key</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">ssh -T git@github.com<br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//9.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/9.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>​    接下来就可以下载啦</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs Shell">git clone --recursive git@github.com:WeBankFinTech/FATE.git<br><br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//10.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/10.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 </blockquote>
 <h3 id="Standalone"><a href="#Standalone" class="headerlink" title="Standalone"></a>Standalone</h3><ol>
 <li><p>Docker version</p>
@@ -254,7 +254,7 @@
 
 <blockquote>
 <p>Bug</p>
-<img   class="lazyload" data-original="/.com//11.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/11.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>Solve</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">bash ./federatedml/test/run_test.sh<br><br></code></pre></td></tr></table></figure>
@@ -263,18 +263,18 @@
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs sh"><span class="hljs-built_in">cd</span> $(dirname <span class="hljs-string">&quot;<span class="hljs-variable">$0</span>&quot;</span>)  <span class="hljs-comment"># $0 -- value: ./federatedml/test/run_test.sh</span><br><span class="hljs-comment"># get location of .sh file ---- ./federatedml/test</span><br>cur_dir=$(<span class="hljs-built_in">pwd</span>)  <br><br><span class="hljs-function"><span class="hljs-title">run_test</span></span>()&#123;<br>    file=<span class="hljs-variable">$1</span>   <span class="hljs-comment"># $1 -- $file_fullname</span><br>    <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;start to run test &quot;</span><span class="hljs-variable">$file</span><br>    python <span class="hljs-variable">$file</span><br>&#125;<br><br><span class="hljs-function"><span class="hljs-title">traverse_folder</span></span>()&#123;<br>    <span class="hljs-keyword">for</span> file <span class="hljs-keyword">in</span> $(ls <span class="hljs-variable">$&#123;1&#125;</span>);  <span class="hljs-comment"># $1 -- $cur_dir/.. or $filename</span><br>    <span class="hljs-keyword">do</span><br>        file_fullname=<span class="hljs-variable">$1</span>/<span class="hljs-variable">$file</span><br>            <span class="hljs-comment"># -d file ------Is a directory?</span><br>        <span class="hljs-keyword">if</span> [ -d <span class="hljs-variable">$file_fullname</span> ];<span class="hljs-keyword">then</span>              <br>            traverse_folder <span class="hljs-variable">$file_fullname</span><br>        <span class="hljs-comment"># =~ match regular expressions</span><br>        <span class="hljs-keyword">elif</span> [[ <span class="hljs-variable">$file</span> =~ _test.py$ ]] &amp;&amp; [[ <span class="hljs-variable">$1</span> =~ /<span class="hljs-built_in">test</span>$ ]];<span class="hljs-keyword">then</span><br>            run_test <span class="hljs-variable">$file_fullname</span><br>        <span class="hljs-keyword">fi</span><br>    <span class="hljs-keyword">done</span><br>&#125;<br><br>traverse_folder <span class="hljs-variable">$cur_dir</span>/..<br><br></code></pre></td></tr></table></figure>
 
 <p>Bug（不一定会出现，后来的安装都没有出现这个Bug）</p>
-<img   class="lazyload" data-original="/.com//12.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/12.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>但是在 conda list 中可以看到</p>
-<img   class="lazyload" data-original="/.com//13.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/13.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>Solve</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs Shell">conda uninstall cycler<br>pip uninstall cycler<br>pip install cycler<br><br></code></pre></td></tr></table></figure>
 
-<img   class="lazyload" data-original="/.com//14.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/14.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>运行的结果是以 start to run test 开头，以 OK 结尾，共有 32 个 _test.py 文件，若都运行成功，表示 <strong>FATE</strong> 安装成功。</p>
-<img   class="lazyload" data-original="/.com//15.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
+<img   class="lazyload" data-original="/2020/08/08/2020-08-08-FATE/15.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center" width="700">
 
 <p>file : </p>
 <ul>
