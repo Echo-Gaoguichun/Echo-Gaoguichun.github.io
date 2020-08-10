@@ -15,8 +15,7 @@
   
   <meta name="keywords" content=", hexo"> 
   
-  <meta name="description" content="一、搭建环境
-Node.js ：https://nod..."> 
+  <meta name="description" content="一、搭建环境1. Node.js ：https://n..."> 
   
   <meta name="author" content="Echo Gao"> 
 
@@ -103,7 +102,7 @@ Node.js ：https://nod...">
   
 
   
-<meta name="generator" content="Hexo 5.0.0"></head>
+<meta name="generator" content="Hexo 5.0.1"></head>
 <body class="lock-screen">
   <div class="loading"></div>
   <nav class="menu">
@@ -151,26 +150,76 @@ Node.js ：https://nod...">
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>2020-08-10</span
         class="post-info-item">
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>147</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1506</span>
     </div>
   </div>
 </section>
   <section class="main">
     <section class="content">
-      <h2 id="一、搭建环境"><a href="#一、搭建环境" class="headerlink" title="一、搭建环境"></a>一、搭建环境</h2><ol>
-<li>Node.js ：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></li>
-</ol>
-<p>在Terminal中输入下面两条语句，如果出现版本号，表示安装成功。</p>
+      <h2 id="一、搭建环境"><a href="#一、搭建环境" class="headerlink" title="一、搭建环境"></a>一、搭建环境</h2><p><strong>1. Node.js</strong> ：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+<p>　　在Terminal中输入下面两条语句，如果出现版本号，表示安装成功。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs Shell">node -v<br>npm -v<br></code></pre></td></tr></table></figure>
+
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
 
-<p><img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="center"></p>
-<ol start="2">
-<li>Git ：<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
-</ol>
-<ol start="3">
-<li>Hexo</li>
-</ol>
+<p><strong>2. Git</strong> ：<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<p>　　安装完之后，在对应的文件夹里面右击，可以看到如下：</p>
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p>　　点击 “<kbd>Git Bash Here</kbd>”，可进入当前目录的 Terminal 界面：</p>
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/3.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p><strong>3. Hexo</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">npm install hexo<br></code></pre></td></tr></table></figure>
+
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/4.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<h2 id="二、初始化博客"><a href="#二、初始化博客" class="headerlink" title="二、初始化博客"></a>二、初始化博客</h2><p>　　在任意盘目录下，创建一个用于存放博客的文件夹，例如 myblog，进入myblog，鼠标右击，点击 “<kbd>Git Bash Here</kbd>”，打开 Terminal：</p>
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/5.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p>　　输入：（命令含义可以查看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">Hexo 中文文档</a>）</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo init blog<br></code></pre></td></tr></table></figure>
+
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/6.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p>　　Hexo 会在 blog 文件夹下自动新建所需要的文件（文佳含义可查看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">Hexo 中文文档</a>），我们可以看到，在 source 目录下，自带一篇 Hello World 文章，将文章生成静态文件：
+　　</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>　　启动服务器：</p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hexo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure>
+
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/7.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p>　　打开 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 就可以看到初步搭建好的博客啦！<br>　　<br><img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/8.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center"></p>
+<h2 id="三、部署Github"><a href="#三、部署Github" class="headerlink" title="三、部署Github"></a>三、部署Github</h2><p>　　接下来就是把搭建好的个人博客发布到 Github 上。<br>　　首先进入 Github 网站，登录自己的账号，Create a new repository，Repository name 必须是 <font color="purple"><code>your github name + github.io</code> </font> （如果没有 Github 账号，网上资料都很全，可以搜索一下如何注册，绑定 Git，设置 ssh 密钥等，例如  ： <a target="_blank" rel="noopener" href="https://www.runoob.com/git/git-tutorial.html">Git 菜鸟教程</a> )</p>
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/9.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p>　　回到本地文件，在 blog 目录下有一个<font color="purple"> _config.yml </font> 配置文件，用 Edit Plus、Subline、NotePad++ 等编辑器打开，修改配置信息，特别要注意的是，在配置文件中，每个参数的<code>：</code>后面都需要加一个<code>空格</code>。</p>
+<p><strong>1. 修改博客信息</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs Hexo"># Site<br>title: Echo-Gao<br>subtitle: &#39;&#39;<br>description: &#39;&#39;<br>keywords:<br>author: Echo Gao<br>language: zh-CN<br>timezone: Asia&#x2F;Shanghai<br></code></pre></td></tr></table></figure>
+
+<p>　　<font color="purple"> <code>language</code></font>和<font color="purple"><code>timezone</code></font> 都是有输入规范的，详细可参考 <a target="_blank" rel="noopener" href="https://link.jianshu.com/?t=https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">语言规范</a>和<a target="_blank" rel="noopener" href="https://link.jianshu.com/?t=https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">时区规范</a>。</p>
+<p><strong>2. 修改部署信息</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs Hexo">deploy:<br>  type: git<br>  repo: https:&#x2F;&#x2F;github.com&#x2F;Echo-Gaoguichun&#x2F;echo-gaoguichun.github.io.git<br>  branch: master<br></code></pre></td></tr></table></figure>
+
+<p>　　<font color="purple"> <code>repo</code></font>为自己的 Github 的地址：</p>
+<img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/10.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
+
+<p>　　<font color="purple"><code>branch</code></font> 为项目分支，默认使用 <font color="purple"><code>master</code></font>。</p>
+<p><strong>3. 修改网址信息（个人域名）</strong></p>
+<p>　　如没有申请个人域名，该操作可忽略，或者填 Github 地址。</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># URL</span><br>url: http:<span class="hljs-regexp">//g</span>aoguichun.com<br></code></pre></td></tr></table></figure>
+
+<p><strong>4. 部署至 Github</strong></p>
+<p>　　安装工具包：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sql">npm <span class="hljs-keyword">install</span> hexo-deployer-git <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure>
+
+<p>　　部署：</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo deploy</span><br></code></pre></td></tr></table></figure>
+
+<p>　　在部署过程中有可能需要输入 Github Name 和 Password。
+　　</p>
 
     </section>
     <section class="extra">
