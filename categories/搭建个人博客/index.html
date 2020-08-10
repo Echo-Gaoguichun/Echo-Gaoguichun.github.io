@@ -261,9 +261,13 @@
 "//widget.daovoice.io/widget/46c3a67b.js","daovoice")
 
 daovoice('init', {
-  app_id: "{{theme.daovoice.appId}}"
-});
-daovoice('update');
+    app_id: "46c3a67b"
+  }, {
+    launcher: {
+      disableLauncherIcon: true,
+    },
+  });
+  daovoice('update');
 
 </script>
 
