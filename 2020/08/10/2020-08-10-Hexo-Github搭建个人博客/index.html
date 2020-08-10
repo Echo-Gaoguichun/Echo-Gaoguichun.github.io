@@ -150,7 +150,7 @@
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>2020-08-10</span
         class="post-info-item">
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1606</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1585</span>
     </div>
   </div>
 </section>
@@ -158,7 +158,7 @@
     <section class="content">
       <h2 id="一、搭建环境"><a href="#一、搭建环境" class="headerlink" title="一、搭建环境"></a>一、搭建环境</h2><p><strong>1. Node.js</strong> ：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
 <p>　　在Terminal中输入下面两条语句，如果出现版本号，表示安装成功。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs Shell">node -v<br>npm -v<br></code></pre></td></tr></table></figure>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs crmsh"><span class="hljs-keyword">node</span> <span class="hljs-title">-v</span><br>npm -v<br></code></pre></td></tr></table></figure>
 
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/1.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
 
@@ -170,7 +170,7 @@
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/3.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
 
 <p><strong>3. Hexo</strong></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">npm install hexo<br></code></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">npm <span class="hljs-keyword">install</span> hexo<br></code></pre></td></tr></table></figure>
 
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/4.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
 
@@ -178,13 +178,13 @@
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/5.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
 
 <p>　　输入：（命令含义可以查看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">Hexo 中文文档</a>）</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo init blog<br></code></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo init blog</span><br></code></pre></td></tr></table></figure>
 
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/6.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
 
 <p>　　Hexo 会在 blog 文件夹下自动新建所需要的文件（文佳含义可查看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">Hexo 中文文档</a>），我们可以看到，在 source 目录下，自带一篇 Hello World 文章，将文章生成静态文件：
 　　</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo generate<br></code></pre></td></tr></table></figure>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs verilog">hexo <span class="hljs-keyword">generate</span><br></code></pre></td></tr></table></figure>
 
 <p>　　启动服务器：</p>
 <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hexo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure>
@@ -197,11 +197,11 @@
 
 <p>　　回到本地文件，在 blog 目录下有一个<font color="purple"> _config.yml </font> 配置文件，用 Edit Plus、Subline、NotePad++ 等编辑器打开，修改配置信息，特别要注意的是，在配置文件中，每个参数的<code>：</code>后面都需要加一个<code>空格</code>。</p>
 <p><strong>1. 修改博客信息</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs Hexo"># Site<br>title: Echo-Gao<br>subtitle: &#39;&#39;<br>description: &#39;&#39;<br>keywords:<br>author: Echo Gao<br>language: zh-CN<br>timezone: Asia&#x2F;Shanghai<br></code></pre></td></tr></table></figure>
+<figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs makefile"><span class="hljs-comment"># Site</span><br><span class="hljs-section">title: Echo-Gao</span><br><span class="hljs-section">subtitle: &#x27;&#x27;</span><br><span class="hljs-section">description: &#x27;&#x27;</span><br><span class="hljs-section">keywords:</span><br><span class="hljs-section">author: Echo Gao</span><br><span class="hljs-section">language: zh-CN</span><br><span class="hljs-section">timezone: Asia/Shanghai</span><br></code></pre></td></tr></table></figure>
 
 <p>　　<font color="purple"> <code>language</code></font>和<font color="purple"><code>timezone</code></font> 都是有输入规范的，详细可参考 <a target="_blank" rel="noopener" href="https://link.jianshu.com/?t=https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">语言规范</a>和<a target="_blank" rel="noopener" href="https://link.jianshu.com/?t=https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">时区规范</a>。</p>
 <p><strong>2. 修改部署信息</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs Hexo">deploy:<br>  type: git<br>  repo: https:&#x2F;&#x2F;github.com&#x2F;Echo-Gaoguichun&#x2F;echo-gaoguichun.github.io.git<br>  branch: master<br></code></pre></td></tr></table></figure>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs less"><span class="hljs-attribute">deploy</span>:<br>  <span class="hljs-attribute">type</span>: git<br>  <span class="hljs-attribute">repo</span>: <span class="hljs-attribute">https</span>:<span class="hljs-comment">//github.com/Echo-Gaoguichun/echo-gaoguichun.github.io.git</span><br>  <span class="hljs-attribute">branch</span>: master<br></code></pre></td></tr></table></figure>
 
 <p>　　<font color="purple"> <code>repo</code></font>为自己的 Github 的地址：</p>
 <img   class="lazyload" data-original="/2020/08/10/2020-08-10-Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/10.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  sign="center">
